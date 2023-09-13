@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Life timer</title>
+    <link rel="stylesheet" href="style.css">
+    <script
+    src="https://kit.fontawesome.com/7a4b62b0a4.js" 
+    crossorigin="anonymous"
+  ></script>
+</head>
+<body>
+    <div class="background">
+        <div id="initialText" class="container">
+            kindly enter your date of birth
+        </div>
+        <div id="afterchange" class="container">
+            <div class="center">
+                <h3>How Much Life Journery Covered,Till Now</h1>
+            <div class="time-container">
+                <h5>
+                    <div id="year">0</div>
+                    year
+                </h5>
+                <h5>
+                    <div id="Month">0</div>
+                    Month
+                </h5>
+                <h5>
+                    <div id="Days">0</div>
+                    Days
+                </h5>
+                <h5>
+                    <div id="hours">0</div>
+                    Hours
+                </h5>
+                <h5>
+                    <div id="minutes">0</div>
+                    Minutes
+                </h5>
+                <h5>
+                    <div id="seconds">0</div>
+                    seconds
+                </h5>
+            </div>
+            </div>
+        </div>
+
+
+
+        <div class="settings">
+            <div id="clickset">Click On Settings</div>
+            <i id="settings-icon" class="fa fa-cog"></i>
+            <div id="settingcontent" class="settings-content hide">
+                <input type="date" id="dobInput">
+                <button id="dobButton">Add Dob</button>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
